@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+
+<div class="compare-box">
+  <h2>Сравнение процессоров 📱</h2>
+
+  <div class="controls">
+    <select id="phone1">
+      <option value="iphone15">iPhone 15 Pro</option>
+      <option value="samsung24">Samsung S24 Ultra</option>
+      <option value="xiaomi14">Xiaomi 14 Ultra</option>
+      <option value="samsung25">Samsung S25 Ultra</option>
+      <option value="iphone17">iPhone 17 Pro</option>
+      <option value="iphone11">iphone11</option>
+    </select>
+
+    <select id="phone2">
+      <option value="samsung24">Samsung S24 Ultra</option>
+      <option value="iphone15">iPhone 15 Pro</option>
+      <option value="xiaomi14">Xiaomi 14 Ultra</option>
+      <option value="samsung25">Samsung S25 Ultra</option>
+      <option value="iphone17">iPhone 17 Pro</option>
+      <option value="iphone11">iphone11</option>
+    </select>
+  </div>
+
+  <button id="compareBtn">Сравнить 🔍</button>
+
+  <div class="images">
+    <img id="img1" src="" alt="">
+    <img id="img2" src="" alt="">
+  </div>
+
+  <div class="spec">
+    <div class="spec-name">Производительность (AnTuTu)</div>
+    <div class="bar">
+      <div class="fill left" id="cpuLeft"></div>
+      <div class="fill right" id="cpuRight"></div>
+    </div>
+    <div class="winner" id="cpuWinner"></div>
+  </div>
+
+  <!-- Добавляем частоту процессора -->
+  <div class="cpu-info" id="freqInfo"></div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
