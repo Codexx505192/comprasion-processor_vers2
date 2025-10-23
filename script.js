@@ -34,6 +34,12 @@ const phones = {
     image: "img/iphone11.png",
     score: 929528,
     cpuFreq: 2650
+  },
+  realmegt7:{
+    name: "realmi gt 7",
+    image: "img/realmi_gt7f.png",
+    score: 2151533,
+    cpuFreq: 3400
   }
 };
 
